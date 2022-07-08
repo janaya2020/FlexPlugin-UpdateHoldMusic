@@ -1,0 +1,17 @@
+{
+  "name": "plugin-custom-hold-music",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "@twilio/flex-plugin-scripts": "5.1.2"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "react-test-renderer": "^16.13.1"
+  }
+}
